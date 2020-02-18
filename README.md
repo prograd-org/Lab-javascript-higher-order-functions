@@ -2,9 +2,10 @@
 
 # ProGrad Lab | Higher Order Function
 
-Higher Order Functions are functions that take other functions as parameters, Mind Blown 💥.
+Higher Order Functions are functions that take other functions as parameters, Sounds good!. 
 
-We are going to discover how these functions are useful through some examples; in particular, we are going to recreate the logic for this type of function for our's better understanding.
+Yeah! We are going to discover how these functions are useful through some examples.
+
 
 ## What should you do
 ```
@@ -102,7 +103,7 @@ Create a function `multiply()` which takes an argument of `myArray` which holds 
 
 Let's extend our knowledge by `implementing map with reduce`.
 
-Take the same function explained in the before task and try is by using `reduce`.
+Take the function explained in the above task of `map` and try is by implementing the same by using `reduce`.
 
 
 
