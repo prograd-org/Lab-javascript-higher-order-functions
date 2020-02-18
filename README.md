@@ -11,7 +11,7 @@ Yeah! We are going to discover how these functions are useful through some examp
 ```
 Fork this repo
 Clone this repo
-Practice JavaScript Basics - Datatypes, Operators, Conditions
+Practice JavaScript - Higher order functions
 ```
 
 ## How To Submit
