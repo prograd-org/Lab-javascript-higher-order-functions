@@ -44,7 +44,7 @@ Expected output: [burger, fingerShips, donuts]
 
 The splice() method adds/removes items to/from an array, and returns the removed item(s).
 
-Take an example array. Create a new array named as `modifiedFood` and use `splice()` to get the above stated expected output.
+Take an example array. Create a new array named as `modifiedFood` and use `splice()` to get the below expected output. Elements are added to the original array.
 
 ```
 const foods = [pizza, burger, fingerShips, donuts, springRoll];
