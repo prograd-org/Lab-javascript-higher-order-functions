@@ -22,9 +22,8 @@ git push origin master
 And finally, create a pull request so your ProGrad Mentor (PM) can review your work.
 ```
 
-## Tests
-
-Open the `SpecRunner.html` file on your browser and start coding to pass the test. Remember to focus on one test at a time and read carefully the instructions to understand what should be done.
+# Instructions
+Create app.js and index.html. Write the code for the following functionalities given below and see the output in console.
 
 ### Function #1: Array Slice
 
