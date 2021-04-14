@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript higherorder function</title>
+</head>
+<body>
+    
+    <p>foods = ["pizza", "burger", "fingerChips", "donuts", "springRoll"]</p>
+    <p>numberArray = [12,324,213,4,2,3,45,4234,17]</p>
+    <p>Click the button for slice operation.</p>
+<button onclick="myFunction()">slice it</button>
+    <p id="demo"></p>
+    <p>Click the button for splice operation</p>
+<button onclick="Spliceit()">Splice it</button>
+    <p id="varo"></p>
+    <p>Click the button for Filter operation</p>
+<button onclick="Filtermeth()">filter it</button>
+    <p id="one"></p>
+    <p>Click the button for square operation</p>
+ <button onclick="Square()">Square it</button>
+    <p id="squ"></p>
+    <p>Click the button for Prime operation</p>
+<button onclick="Prime()">Prime it</button>
+    <p id="pri"></p>
+    <p>Click the button for Reduce operation</p>
+ <button onclick="Multiply()">Reduce it</button>
+    <p id="mul"></p>        
+
+<script>
+    // Array slice
+  const numberArray = [12,324,213,4,2,3,45,4234,17];
+  const foods = ["pizza", "burger", "fingerChips", "donuts", "springRoll"];
+function myFunction() {
+    
+    var moidifiedFood =foods.slice(1, 4);
+    console.log(moidifiedFood)
+
+  document.getElementById("demo").innerHTML = moidifiedFood;
+}
+
+
+// Array Splice
+function Spliceit(){
+    const Fod = ["pizza", "burger", "fingerChips", "donuts", "springRoll"];
+    Fod.splice(2, 0, "noodles", "Icream");
+    document.getElementById("varo").innerHTML = Fod;
+}
+
+// Array Filter
+function Filtermeth(){
+  
+    Modifiedarray = numberArray.filter(function(IsEven){
+        return (IsEven%2==0);
+    })
+   
+    document.getElementById("one").innerHTML = Modifiedarray;
+}
+
+// Array map
+function  Square()
+ {
+     myArray = [12,324,213,4,2,3,45,4234];
+ findSquareOfNumbers = myArray.map(function (num) { return (num*num);});
+
+document.getElementById("squ").innerHTML = findSquareOfNumbers; 
+}
+
+// Prime function using filter
+function Prime()
+{
+    
+  primenum =  numberArray.filter(function(num){
+    var flag = 0;
+        for (i=2;i<num;++i) {
+            if (num%i==0) {
+                flag = 1;
+                break;
+            }
+        }
+           if (flag == 0) {
+              return num ;
+           } 
+        
+    });
+    document.getElementById("pri").innerHTML = primenum; 
+}
+
+// multiply function using reduce method
+function Multiply()
+{
+const myArray = [2, 3, 5, 10];
+mularray = myArray.reduce(function(init,item){
+    return init*item;
+});
+document.getElementById("mul").innerHTML = mularray;
+}
+
+</script>
+    
+</body>
+</html>
