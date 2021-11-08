@@ -1,7 +1,7 @@
 const foods = ["pizza", "burger", "fingerChips", "donuts", "springRoll"];
 const modifiedFood=foods.slice(1,foods.length-1);
 //console.log(modifiedFood);
-// 2
+// 2..
  foods1 = ["pizza", "burger", "fingerChips", "donuts", "springRoll"];
  modifiedFood1=foods1.slice(2,0,"noodles","ice cream");
 console.log(modifiedFood1)
