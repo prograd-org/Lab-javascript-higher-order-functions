@@ -74,5 +74,5 @@ console.log(newarray);
   
 //#7: Reduce
 var myArray = [2, 3, 5, 10];
-var mul=myArray.reduce(function(i,d){return i*d;});
+var mul=myArray.reduce(function(i,d){return i*d;}); 
 console.log(mul);
