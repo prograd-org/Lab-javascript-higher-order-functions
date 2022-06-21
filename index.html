@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script type="text/javascript" src="app.js"></script>
+        <title>Higher Order Function</title>
+    </head> 
+    <body>
+        <h1>Function 1 : Array Slice()</h1>
+        <p style="font-size: larger;">const foods = [pizza, burger, fingerChips, donuts, springRoll, Sandwich, HotDog, Pancake]</p>
+        <input type="number" id="n1" placeholder="start position">
+        <input type="number" id="n2" placeholder="end position">
+        <input type="submit" value="Submit" onclick="slice()">
+        <p style="font-size: larger;" id="out1"></p>
+
+        <h1>Function 2 : Array Splice()</h1>
+        <p style="font-size: larger;">const foods = [pizza, burger, fingerChips, donuts, springRoll]</p>
+        <input type="number" id="n3" placeholder="position">
+        <input type="text" id="n4" placeholder="element">
+        <input type="submit" value="Add" onclick="Addsplice()">
+        <p style="font-size: larger;" id="out2"></p>
+
+        <h1>Function 3 : Filter()</h1>
+        <p style="font-size: larger;">const numberArray = [12,324,213,4,2,3,45,4234]</p>
+        <input type="submit" value="Filter even number" onclick="isEven()">
+        <p style="font-size: larger;" id="out3"></p>
+
+        <h1>Function 4 : Reject()</h1>
+        <p style="font-size: larger;">const numberArray = [12,324,213,4,2,3,45,4234]</p>
+        <input type="submit" value="Not prime number" onclick="isprime()">
+        <p style="font-size: larger;" id="out4"></p>
+
+        <h1>Function 5 : Lambda()</h1>
+        <p style="font-size: larger;">const numberArray = [12,324,213,4,2,3,45,4234]</p>
+        <input type="submit" value="Even using Lambda" onclick="checkEven()">
+        <p style="font-size: larger;" id="out5"></p>
+
+        <h1>Function 6 : Map()</h1>
+        <p style="font-size: larger;">const myArray = [11, 34, 20, 5, 53, 16]</p>
+        <input type="submit" value="Square of number" onclick="findSquare()">
+        <p style="font-size: larger;" id="out6"></p>
+
+        <h1>Function 7 : Reduce()</h1>
+        <p style="font-size: larger;">const myArray = [2, 3, 5, 10]</p>
+        <input type="submit" value="multiply all" onclick="multiply()">
+        <p style="font-size: larger;" id="out7"></p>
+    </body>
+</html>
